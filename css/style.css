@@ -1,0 +1,173 @@
+*{
+
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:Arial;
+
+}
+.container{
+  width:100%;
+  /* 
+   width:1000px;
+   margin:0 auto;
+  */
+}
+nav{
+	
+	background:#000;
+	overflow:hidden;
+	height:60px;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:2;
+}
+nav span{
+	display:block;
+	font-size:20px;
+	float:left;
+	width:60%;
+	color:#e16d62;
+	padding:20px 30px;
+	
+}
+nav ul {
+	
+	float:right;
+	width:40%;
+	list-style-type:none;
+}
+ul li{
+	float:left;
+	
+	
+}
+nav ul li a{
+	display:block;
+	padding:22px;
+	color:#fff;
+	text-decoration:none;
+}
+nav ul li.active{
+	
+	background:#e16d62;
+}
+nav ul li:hover{
+	
+	background:#e16d62;
+}
+header{
+	
+	background:url("../images/3.jpg") no-repeat;
+	background-size:cover;
+	height:700px;
+}
+header h1{
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:30%;
+	font-size:50px;
+	
+	
+}
+header .overlay{
+	background:rgba(0,0,0,0.5);
+	height:100%;
+	width:100%;
+	
+}
+.Services{
+	
+	padding:50px 20px;
+	text-align:center;
+	overflow:hidden;
+	
+}
+.Services h2{
+	
+	margin:20px 0;
+	
+}
+.Services .cate{
+	
+	float:left;
+     width:33.3333%;
+	 padding:10px;
+	
+}
+.Services .cate img{
+	display:block;
+	width:100%;
+	height:200px;
+}
+.contact-us{
+	padding:50px 20px;
+	background:#333;
+	overflow:hidden;
+	color:#fff;
+	
+}
+.contact-us .info{
+	
+	float:left;
+	width:50%;
+	
+}
+.contact-us  .contact-form{
+	float:left;
+	width:50%
+	
+}
+.contact-us  .contact-form form{
+	
+	float:right;
+	
+}
+
+.contact-us  .contact-form form input{
+	
+	display:block;
+	width:320px;
+	padding:8px;
+	margin-bottom:10px;
+	border:1px solid #e16d62;
+	background:transparent;
+	
+}
+.contact-us  .contact-form form textarea{
+	display:block;
+	width:320px;
+	height:200px;
+	padding:8px;
+	margin-bottom:10px;
+	border:1px solid #e16d62;
+	background:transparent;
+	
+}
+.contact-us  .contact-form form input[type="submit"]{
+	display:block;
+	width:320px;
+	height:40px;
+	padding:8px;
+	margin-bottom:10px;
+	border:1px solid #e16d62;
+	background:#e16d62;
+	color:#fff;
+	cursor:pointer;
+}
+
+.contact-us  h2{
+	margin:30px 0;
+}
+.contact-us  p{
+	margin:30px 0;
+}
+footer{
+	padding:30px 0;
+	color:#fff;
+	text-align:center;
+	background:#000;
+}
